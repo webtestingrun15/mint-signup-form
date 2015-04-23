@@ -1,3 +1,7 @@
+html {
+    font-family: 'HelveticaNeue-Light', sans-serif;
+}
+
 .wrapper {
     width: 690px;
     margin: 0 auto;
@@ -5,8 +9,47 @@
 
 header {
     height: 96px;
-    background: grey;
     margin-bottom: -21px;
+}
+
+.hc {
+    position: relative;
+    height: 96px;
+    /*    width: 690px;*/
+}
+
+.logo {
+    display: inline-block;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.links {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    font-size: 16px;
+}
+
+.signup {
+    font-weight: bold;
+}
+
+.login {
+    border-left: 1px solid black;
+    padding-left: 10px;
+    margin-right: 10px;
+}
+
+nav li {
+    display: inline;
+}
+
+nav li a {
+    text-decoration: none;
+    font-size: 16px;
+    color: black;
 }
 
 .content {
