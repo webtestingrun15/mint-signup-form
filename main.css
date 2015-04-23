@@ -1,0 +1,46 @@
+.wrapper {
+    width: 690px;
+    margin: 0 auto;
+}
+
+header {
+    height: 96px;
+    background: grey;
+    margin-bottom: -21px;
+}
+
+.content {
+    height: 739px;
+    background: yellow;
+}
+
+.content-fa {
+    margin: 0 50px;
+}
+
+.security {
+    width: 197px;
+    height: 180px;
+    background: grey;
+    margin-left: 20px;
+}
+
+form {
+    width: 350px;
+    height: 574px;
+    background: green;
+    display: inline-block;
+}
+
+aside {
+    width: 223px;
+    height: 528px;
+    background: white;
+    display: inline-block;
+    vertical-align: top;
+}
+
+footer {
+    height: 145px;
+    background: red;
+}
