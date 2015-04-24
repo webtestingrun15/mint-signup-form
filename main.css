@@ -1,5 +1,6 @@
 html {
     font-family: 'HelveticaNeue-Light', sans-serif;
+    box-sizing: border-box;
 }
 
 .wrapper {
@@ -73,6 +74,55 @@ form {
     height: 574px;
     background: green;
     display: inline-block;
+
+}
+h1 {
+    padding-top: 40px;
+    padding-bottom: 30px;
+}
+
+form label {
+    display: block;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+.email-info input[type="text"],
+.email-info input[type="email"],
+.email-info input[type="password"],
+.email-info select {
+    margin-top: 6px;
+    width: 90%;
+    padding: 5px;
+    border-radius: 4px;
+}
+
+.email-info select {
+    width: 95%;
+}
+
+.email-info .checkbox {
+    font-weight: inherit;
+    font-size: 13px;
+}
+
+.email-info {
+    border-right: 1px solid #D3D3D3;
+    padding: 10px 50px 40px 5px;
+}
+
+.btn {
+    background: #F89406;
+    color: #FCF6C0;
+    border: 1px solid #F8960A;
+    border-radius: 4px;
+    padding: 5px;
 }
 
 aside {

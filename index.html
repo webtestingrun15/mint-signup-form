@@ -39,7 +39,7 @@
                         </label>
                         <label>
                             Country
-                            <select name="country">
+                            <select name="country" id="country">
                                 <optgroup label="Available now:">
                                     <option value="US">United States</option>
                                     <option value="CA">Canada</option>
@@ -47,8 +47,8 @@
                             </select>
                         </label>
                         <label>
-                            Zip Code
-                            <input type="text" name="zipcode">
+                            Zip Code <br>
+                            <input type="text" name="zipcode" id="zipcode">
                         </label>
                         <label>
                             Password
@@ -58,15 +58,22 @@
                             Confirm Password
                             <input type="password" name="confirm-password">
                         </label>
-                        <label>
-                            <input type="checkbox" name="agree">
-                            Yes, I agree to the Mint Terms of Use.
+                        <label class="checkbox">
+                            <input type="checkbox" name="agree"> Yes, I agree to the Mint Terms of Use.
                         </label>
                     </fieldset>
-                    <input type="submit" name="submit" value="Sign up">
+                    <input class="btn" type="submit" name="submit" value="Sign up">
                 </form>
                 <aside>
-                    <div class="security"></div>
+                    <div class="security">
+                        <h3>Why you'll love it</h3>
+                        <ul>
+                            <li>See all your accounts in one place</li>
+                            <li>Set a budget and pay down your debt</li>
+                            <li>Find the best ways to grow your money</li>
+                            <li>Stay safe and secure</li>
+                        </ul>
+                    </div>
                 </aside>
             </div>
         </div>
