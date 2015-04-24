@@ -92,7 +92,6 @@ fieldset {
     margin: 0;
     padding: 0;
 }
-
 .email-info input[type="text"],
 .email-info input[type="email"],
 .email-info input[type="password"],
@@ -105,6 +104,10 @@ fieldset {
 
 .email-info select {
     width: 95%;
+}
+
+.email-info input[type="text"]{
+    width: 30%;
 }
 
 .email-info .checkbox {
