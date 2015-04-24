@@ -27,7 +27,42 @@
         <div class="content">
             <div class="content-fa">
                 <h1>Create a new account</h1>
-                <form action="#" method="POST"></form>
+                <form action="#" method="POST">
+                        <label>
+                            Your Email
+                            <input type="email" name="email-address">
+                        </label>
+                        <label>
+                            Confirm Email
+                            <input type="email" name="confirm-email">
+                        </label>
+                        <label>
+                            Country
+                            <select name="country">
+                                <optgroup label="Available now:">
+                                    <option value="US">United States</option>
+                                    <option value="CA">Canada</option>
+                                </optgroup>
+                            </select>
+                        </label>
+                        <label>
+                            Zip Code
+                            <input type="text" name="zipcode">
+                        </label>
+                        <label>
+                            Password
+                            <input type="password" name="password">
+                        </label>
+                        <label>
+                            Confirm Password
+                            <input type="password" name="confirm-password">
+                        </label>
+                        <label>
+                            <input type="checkbox" name="agree">
+                            Yes, I agree to the Mint Terms of Use.
+                        </label>
+                    <input type="submit" name="submit" value="Sign up">
+                </form>
                 <aside>
                     <div class="security"></div>
                 </aside>
