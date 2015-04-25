@@ -10,7 +10,7 @@ html {
 
 header {
     height: 96px;
-    margin-bottom: -21px;
+    margin-bottom: -23px;
 }
 
 .hc {
@@ -55,7 +55,7 @@ nav li a {
 
 .content {
     height: 739px;
-    background: yellow;
+    box-shadow: -2px -2px 5px -2px #EAE2E1, 4px 2px 5px 0 #E1E1E1;
 }
 
 .content-fa {
@@ -65,17 +65,17 @@ nav li a {
 .security {
     width: 197px;
     height: 180px;
-    background: grey;
+    background: #F5F5F5;
+    padding: 10px;
     margin-left: 20px;
 }
 
 form {
     width: 350px;
     height: 574px;
-    background: green;
     display: inline-block;
-
 }
+
 h1 {
     padding-top: 40px;
     padding-bottom: 30px;
@@ -92,6 +92,7 @@ fieldset {
     margin: 0;
     padding: 0;
 }
+
 .email-info input[type="text"],
 .email-info input[type="email"],
 .email-info input[type="password"],
@@ -106,7 +107,7 @@ fieldset {
     width: 95%;
 }
 
-.email-info input[type="text"]{
+.email-info input[type="text"] {
     width: 30%;
 }
 
@@ -126,17 +127,28 @@ fieldset {
     border: 1px solid #F8960A;
     border-radius: 4px;
     padding: 5px;
+    width: 72px;
 }
 
 aside {
     width: 223px;
     height: 528px;
-    background: white;
     display: inline-block;
     vertical-align: top;
+    margin-left: 10px;
+}
+
+aside li {
+    font-size: 11px;
+}
+
+h3 {
+    font-size: 20px;
+    font-weight: 100;
 }
 
 footer {
+    margin-top: 10px;
     height: 145px;
     background: red;
 }
