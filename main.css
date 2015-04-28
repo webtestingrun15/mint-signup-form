@@ -93,6 +93,9 @@ fieldset {
     padding: 0;
 }
 
+input {
+    border: 1px solid #CCCCCC;
+}
 .email-info input[type="text"],
 .email-info input[type="email"],
 .email-info input[type="password"],
