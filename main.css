@@ -150,5 +150,28 @@ h3 {
 footer {
     margin-top: 10px;
     height: 145px;
-    background: red;
+    font-size: 11px;
+    text-align: center;
+}
+
+footer a {
+    text-decoration: none;
+    padding: 10px;
+    color: black;
+}
+
+.notices {
+    padding-top: 10px;
+}
+
+.copyright {
+    color: #999;
+}
+
+.certs img {
+    padding: 10px 40px 10px 40px;
+}
+
+footer ul li {
+    display: inline-block;
 }
